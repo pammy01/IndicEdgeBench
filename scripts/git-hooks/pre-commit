@@ -1,0 +1,10 @@
+#!/bin/sh
+# IndicEdgeBench guard: commits must be authored AND committed as Pammy <pammy7296@gmail.com>.
+EXPECTED="Pammy <pammy7296@gmail.com>"
+for who in GIT_AUTHOR_IDENT GIT_COMMITTER_IDENT; do
+  ident=$(git var "$who" | sed 's/ [0-9]* [+-][0-9]*$//')
+  if [ "$ident" != "$EXPECTED" ]; then
+    echo "BLOCKED: $who is '$ident', expected '$EXPECTED'." >&2
+    exit 1
+  fi
+done

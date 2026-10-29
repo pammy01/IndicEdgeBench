@@ -1,0 +1,14 @@
+#!/bin/sh
+# IndicEdgeBench guard: this project may only be pushed to pammy01/IndicEdgeBench as pammy01.
+# Git Credential Manager stores the login as "pammy01" or as its permanent user ID 211810066
+# depending on the OS, so either is accepted.
+url="$2"
+case "$url" in
+  https://github.com/pammy01/IndicEdgeBench.git|https://github.com/pammy01/IndicEdgeBench) ;;
+  *) echo "BLOCKED: push target '$url' is not https://github.com/pammy01/IndicEdgeBench.git" >&2; exit 1 ;;
+esac
+user=$(git config --local credential.https://github.com.username)
+case "$user" in
+  pammy01|211810066) ;;
+  *) echo "BLOCKED: credential account for this repo is '$user', expected pammy01 (211810066)." >&2; exit 1 ;;
+esac

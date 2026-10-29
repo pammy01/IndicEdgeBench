@@ -5,6 +5,7 @@
 IndicEdgeBench is an open benchmark harness that answers both halves in a single run. It scores quantized GGUF models (F16 → Q8 → Q4 → Q2) on Indian-language multiple-choice tasks and, in the same process, measures CPU latency, peak memory, energy and tokenizer fertility. The output is a **quality-vs-efficiency Pareto frontier per language**.
 
 > Status: **v0.1 (Evaluation 1)**. Harness complete, pilot results on Apple M3; the laptop pilot with MILU is next.
+> **Setting up the Windows laptop? Follow [docs/ACER_SETUP.md](docs/ACER_SETUP.md) step by step.**
 > Docs: [design](docs/design.md) · [literature survey](docs/literature_survey.md) · [original proposal](docs/proposal.md)
 
 ## What it measures

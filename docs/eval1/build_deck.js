@@ -1,5 +1,8 @@
+// Rebuild the Eval-1 deck from results:  node build_deck.js <out.pptx> <repo root>
+// Needs pptxgenjs and summary.json (results/smoke_mac/summary.csv exported as JSON records) beside this script.
 const pptxgen = require("pptxgenjs");
-const { applyTheme } = require("/Users/sujalsinha/.claude/skills/synced/30326269-0932-45e1-8f03-5de5537a7b19_9a608815-ec0f-4d7d-8bd0-2ee65a1f3ece/pptx/scripts/apply_theme.js");
+// Optional: a helper that writes THEME colours into the .pptx theme part (path via APPLY_THEME_JS).
+const applyTheme = process.env.APPLY_THEME_JS ? require(process.env.APPLY_THEME_JS).applyTheme : null;
 const rows = require("./summary.json");
 const OUT = process.argv[2];
 const ROOT = process.argv[3]; // repo root, for result plot images
@@ -291,6 +294,6 @@ pres.addSection({ title: "Plan" });
 
 (async () => {
   await pres.writeFile({ fileName: OUT });
-  await applyTheme(OUT, THEME);
+  if (applyTheme) await applyTheme(OUT, THEME);
   console.log("wrote", OUT);
 })();

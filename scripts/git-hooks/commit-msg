@@ -1,0 +1,6 @@
+#!/bin/sh
+# IndicEdgeBench guard: no AI co-author / attribution trailers in commit messages.
+if grep -qiE 'co-authored-by|anthropic|generated with .*claude|claude' "$1"; then
+  echo "BLOCKED: commit message contains a co-author or AI-attribution line." >&2
+  exit 1
+fi
