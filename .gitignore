@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Secrets
+.env
+
+# Large artifacts: model weights and MILU caches are downloaded, never committed
+models/
+.hf_cache/
+data/cache/
+
+# Per-item results are small and committed for reproducibility; worker logs are not
+results/**/logs/
+results/**/*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

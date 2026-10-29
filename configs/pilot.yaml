@@ -1,0 +1,43 @@
+# Eval-1 pilot sweep, intended for the Windows laptop (Intel i5 12th-gen H, 16 GB).
+# 2 models x 3-4 quant levels x 3 languages x 200 MILU items (falls back to the bundled set without HF_TOKEN).
+run_name: pilot
+seed: 1234
+
+runtime:
+  n_threads: null      # physical cores; try 4 (P-cores only) on hybrid Intel CPUs as an ablation
+  n_ctx: 2048
+  n_gpu_layers: 0
+  cooldown_s: 20
+
+data:
+  source: auto         # MILU if HF_TOKEN is set, else data/fallback
+  split: test
+  n_per_language: 200
+  languages: [hi, ta, en]   # Hindi (Indo-Aryan), Tamil (Dravidian), English control
+  n_shot: 0
+
+latency:
+  n_items: 5
+  max_new_tokens: 64
+  repeats: 3
+  warmup: 1
+
+energy:
+  tdp_watts: 45        # Intel 12th-gen H base power; estimated energy on Windows
+
+models:
+  - name: qwen2.5-1.5b-instruct
+    repo: bartowski/Qwen2.5-1.5B-Instruct-GGUF
+    baseline: F16
+    quants:
+      F16: Qwen2.5-1.5B-Instruct-f16.gguf
+      Q8_0: Qwen2.5-1.5B-Instruct-Q8_0.gguf
+      Q4_K_M: Qwen2.5-1.5B-Instruct-Q4_K_M.gguf
+      Q2_K: Qwen2.5-1.5B-Instruct-Q2_K.gguf
+  - name: llama-3.2-1b-instruct
+    repo: bartowski/Llama-3.2-1B-Instruct-GGUF
+    baseline: F16
+    quants:
+      F16: Llama-3.2-1B-Instruct-f16.gguf
+      Q8_0: Llama-3.2-1B-Instruct-Q8_0.gguf
+      Q4_K_M: Llama-3.2-1B-Instruct-Q4_K_M.gguf

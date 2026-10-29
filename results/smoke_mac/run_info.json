@@ -1,0 +1,14 @@
+{
+  "data_source": "fallback",
+  "system": {
+    "os": "Darwin 27.0.0",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "physical_cores": 8,
+    "logical_cores": 8,
+    "ram_gb": 8.0,
+    "python": "3.12.8",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": null
+  }
+}

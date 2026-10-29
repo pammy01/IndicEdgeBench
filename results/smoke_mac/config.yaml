@@ -1,0 +1,32 @@
+# Eval-1 demo run on the development Mac (Apple M3, 8 GB): one 0.5B model, four quant levels,
+# bundled fallback set (30 parallel items x 3 languages). Finishes in minutes.
+run_name: smoke_mac
+seed: 1234
+
+runtime:
+  n_threads: null      # physical cores
+  n_ctx: 2048
+  n_gpu_layers: 0      # CPU only, comparable with the Windows laptop
+  cooldown_s: 5
+
+data:
+  source: fallback
+  n_per_language: null # all 30
+  languages: [hi, ta, en]
+  n_shot: 0
+
+latency:
+  n_items: 3
+  max_new_tokens: 64
+  repeats: 3
+  warmup: 1
+
+models:
+  - name: qwen2.5-0.5b-instruct
+    repo: bartowski/Qwen2.5-0.5B-Instruct-GGUF
+    baseline: Q8_0       # F16 download paused on the dev Mac; switch back to F16 once it is present
+    quants:
+      # F16: Qwen2.5-0.5B-Instruct-f16.gguf
+      Q8_0: Qwen2.5-0.5B-Instruct-Q8_0.gguf
+      Q4_K_M: Qwen2.5-0.5B-Instruct-Q4_K_M.gguf
+      Q2_K: Qwen2.5-0.5B-Instruct-Q2_K.gguf

@@ -1,0 +1,14 @@
+# llama-cpp-python is installed separately by scripts/setup.ps1 / scripts/setup.sh
+# (prebuilt CPU wheel on Windows, Metal build on macOS). Pinned version:
+#   llama-cpp-python==0.3.19
+huggingface_hub>=0.25
+datasets>=3.0
+pyarrow>=15
+pyyaml>=6.0
+psutil>=5.9
+py-cpuinfo>=9.0
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+tqdm>=4.66
+pytest>=8.0

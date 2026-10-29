@@ -1,0 +1,30 @@
+{"id": "ieb-fb-001", "lang": "en", "domain": "geography", "question": "What is the capital of Tamil Nadu?", "options": ["Chennai", "Madurai", "Coimbatore", "Tiruchirappalli"], "answer": 0}
+{"id": "ieb-fb-002", "lang": "en", "domain": "science", "question": "Which planet is known as the Red Planet?", "options": ["Venus", "Mars", "Jupiter", "Saturn"], "answer": 1}
+{"id": "ieb-fb-003", "lang": "en", "domain": "general", "question": "How many days are there in a leap year?", "options": ["364", "365", "366", "367"], "answer": 2}
+{"id": "ieb-fb-004", "lang": "en", "domain": "science", "question": "Which gas do plants absorb from the air for photosynthesis?", "options": ["Oxygen", "Nitrogen", "Hydrogen", "Carbon dioxide"], "answer": 3}
+{"id": "ieb-fb-005", "lang": "en", "domain": "math", "question": "What is 15 × 4?", "options": ["60", "45", "50", "75"], "answer": 0}
+{"id": "ieb-fb-006", "lang": "en", "domain": "geography", "question": "Which river is also called the Dakshin Ganga (Ganga of the South)?", "options": ["Kaveri", "Godavari", "Krishna", "Narmada"], "answer": 1}
+{"id": "ieb-fb-007", "lang": "en", "domain": "civics", "question": "Who is known as the Father of the Indian Constitution?", "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "B. R. Ambedkar", "Sardar Patel"], "answer": 2}
+{"id": "ieb-fb-008", "lang": "en", "domain": "science", "question": "At what temperature does water boil at sea level?", "options": ["50°C", "90°C", "120°C", "100°C"], "answer": 3}
+{"id": "ieb-fb-009", "lang": "en", "domain": "geography", "question": "Which is the largest ocean?", "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"], "answer": 0}
+{"id": "ieb-fb-010", "lang": "en", "domain": "culture", "question": "In which state is the Konark Sun Temple located?", "options": ["West Bengal", "Odisha", "Bihar", "Andhra Pradesh"], "answer": 1}
+{"id": "ieb-fb-011", "lang": "en", "domain": "math", "question": "If a train travels 120 km in 2 hours, what is its average speed?", "options": ["40 km/h", "240 km/h", "60 km/h", "100 km/h"], "answer": 2}
+{"id": "ieb-fb-012", "lang": "en", "domain": "science", "question": "Which organ pumps blood through the body?", "options": ["Lungs", "Liver", "Kidney", "Heart"], "answer": 3}
+{"id": "ieb-fb-013", "lang": "en", "domain": "general", "question": "What is the national animal of India?", "options": ["Tiger", "Lion", "Elephant", "Peacock"], "answer": 0}
+{"id": "ieb-fb-014", "lang": "en", "domain": "culture", "question": "Which festival is known as the festival of lights?", "options": ["Holi", "Diwali", "Pongal", "Onam"], "answer": 1}
+{"id": "ieb-fb-015", "lang": "en", "domain": "math", "question": "What is the square root of 144?", "options": ["10", "14", "12", "16"], "answer": 2}
+{"id": "ieb-fb-016", "lang": "en", "domain": "agriculture", "question": "Which crop is mainly grown in flooded fields?", "options": ["Wheat", "Mustard", "Cotton", "Rice"], "answer": 3}
+{"id": "ieb-fb-017", "lang": "en", "domain": "civics", "question": "How many states are there in India?", "options": ["28", "25", "30", "32"], "answer": 0}
+{"id": "ieb-fb-018", "lang": "en", "domain": "science", "question": "Which vitamin does the human body make from sunlight?", "options": ["Vitamin A", "Vitamin D", "Vitamin C", "Vitamin K"], "answer": 1}
+{"id": "ieb-fb-019", "lang": "en", "domain": "culture", "question": "Pongal is mainly celebrated in which state?", "options": ["Kerala", "Punjab", "Tamil Nadu", "Gujarat"], "answer": 2}
+{"id": "ieb-fb-020", "lang": "en", "domain": "math", "question": "What is the smallest prime number?", "options": ["0", "1", "3", "2"], "answer": 3}
+{"id": "ieb-fb-021", "lang": "en", "domain": "general", "question": "What is the currency of India?", "options": ["Rupee", "Taka", "Dollar", "Yen"], "answer": 0}
+{"id": "ieb-fb-022", "lang": "en", "domain": "culture", "question": "Which famous work was written by Thiruvalluvar?", "options": ["Silappatikaram", "Thirukkural", "Manimekalai", "Ramayana"], "answer": 1}
+{"id": "ieb-fb-023", "lang": "en", "domain": "science", "question": "Ice is which state of water?", "options": ["Liquid", "Gas", "Solid", "Plasma"], "answer": 2}
+{"id": "ieb-fb-024", "lang": "en", "domain": "reasoning", "question": "If today is Monday, which day will it be 3 days later?", "options": ["Wednesday", "Friday", "Tuesday", "Thursday"], "answer": 3}
+{"id": "ieb-fb-025", "lang": "en", "domain": "geography", "question": "Which is the longest river in India?", "options": ["Ganga", "Yamuna", "Brahmaputra", "Godavari"], "answer": 0}
+{"id": "ieb-fb-026", "lang": "en", "domain": "science", "question": "What is the unit of electric current?", "options": ["Volt", "Ampere", "Watt", "Ohm"], "answer": 1}
+{"id": "ieb-fb-027", "lang": "en", "domain": "math", "question": "How many paise make one rupee?", "options": ["10", "50", "100", "1000"], "answer": 2}
+{"id": "ieb-fb-028", "lang": "en", "domain": "science", "question": "Which instrument is used to measure temperature?", "options": ["Barometer", "Speedometer", "Hygrometer", "Thermometer"], "answer": 3}
+{"id": "ieb-fb-029", "lang": "en", "domain": "geography", "question": "Which city is known as the Pink City?", "options": ["Jaipur", "Jodhpur", "Udaipur", "Mysuru"], "answer": 0}
+{"id": "ieb-fb-030", "lang": "en", "domain": "math", "question": "What is the simple interest on ₹1000 at 10% per year for 2 years?", "options": ["₹100", "₹200", "₹300", "₹2000"], "answer": 1}

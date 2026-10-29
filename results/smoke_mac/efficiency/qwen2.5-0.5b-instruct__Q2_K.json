@@ -1,0 +1,157 @@
+{
+  "model": "qwen2.5-0.5b-instruct",
+  "quant": "Q2_K",
+  "model_path": "models/Qwen2.5-0.5B-Instruct-GGUF/Qwen2.5-0.5B-Instruct-Q2_K.gguf",
+  "model_file_mb": 322.9212951660156,
+  "load_s": 0.509157000000414,
+  "peak_rss_mb": 734.265625,
+  "n_threads": 8,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 20.0,
+  "system": {
+    "os": "Darwin 27.0.0",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "physical_cores": 8,
+    "logical_cores": 8,
+    "ram_gb": 8.0,
+    "python": "3.12.8",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": null
+  },
+  "languages": {
+    "hi": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 4.737913486005089,
+        "chars_per_token": 1.0767991407089152,
+        "n_tokens": 1862,
+        "n_words": 393
+      },
+      "mcq_wall_s": 3.7495710419971147,
+      "mcq_energy_j": 52.676284159999994,
+      "gen_energy_j_per_token": 0.20304251694444445,
+      "ttft_s": {
+        "median": 0.10381900000356836,
+        "std": 0.00539145089455176,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 744.6238516050284,
+        "std": 50.70676171252523,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 144.0969016265804,
+        "std": 11.110638530952556,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 89,
+          "text": " तमिलनाडु की राजधानी तिरुचिरापल्ली (तमिलनाडु राजधानी के नाम नाही तम"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 78,
+          "text": " शुक्र\n\nReasoning: The correct answer is \"शुक्र\" (Shukr). This is a Sanskrit word meaning \"to wash\" or \"to clean\". The word is derived from the root \"शुक्र\" (Shukr), which means \"to wash\""
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 72,
+          "text": " लीप वर्ष में कितने दिन होते हैं? (The number of days in a year in the month of January in the lunar calendar?)\n\nExplanation: The correct answer is B. 365. The lunar calendar"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 8.296774193548387,
+        "chars_per_token": 0.9078538102643857,
+        "n_tokens": 2572,
+        "n_words": 310
+      },
+      "mcq_wall_s": 4.866910249998909,
+      "mcq_energy_j": 72.24525983999996,
+      "gen_energy_j_per_token": 0.23291288666666665,
+      "ttft_s": {
+        "median": 0.14376241699937964,
+        "std": 0.010739691652115345,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 757.8765690868845,
+        "std": 98.62823024964004,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 138.4689183987044,
+        "std": 11.966713873824885,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 108,
+          "text": " தமிழா\n\nRationale and explanation: The question asks about the name of a place in Tamil Nadu, and the correct answer is தமிழா (Tamil Nadu). The other options are incorrect because:\n\n- சென்னை (Srinagar"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 113,
+          "text": " A. வெள்ளி\n\nRationale: The question asks about a type of pain, specifically a type of chronic pain. The options provided are for types of pain, and the correct answer is \"வெள்ளி\" (Velliyi), which is a type of"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 80,
+          "text": " A. 364\n\nRationale: The number of days in a non-leap year is 364, as per the Gregorian calendar. This is because a non-leap year has 365 days, but the 1st of February is not considered a leap year, so it"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 1.61139896373057,
+        "chars_per_token": 3.469453376205788,
+        "n_tokens": 622,
+        "n_words": 386
+      },
+      "mcq_wall_s": 2.7263115840032697,
+      "mcq_energy_j": 37.44929536000001,
+      "gen_energy_j_per_token": 0.2329640677777778,
+      "ttft_s": {
+        "median": 0.08201308300340315,
+        "std": 0.009310904783576277,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 544.0598423124485,
+        "std": 44.096698943086494,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 130.7494296210931,
+        "std": 26.288505861472995,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 46,
+          "text": " A. Chennai\n\nExplanation: The capital of Tamil Nadu is Chennai, which is located in the state of Tamil Nadu, India. This is because Chennai is the largest city in India, and it is the capital of Tamil Nadu. The other options are incorrect because:\n\n- A. Coimbatore is the capital of"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 39,
+          "text": " B. Mars\n\nExplanation: The Red Planet is known as the \"Mars\" in the Solar System. The term \"Red Planet\" refers to the planet Mars, which is the second planet from the Sun in our solar system. It is also known as the \"Red Planet\" because of its reddish appearance due"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 52,
+          "text": " A. 365\n\nExplanation: A leap year has 365 days, which is the same as a common year. A leap year occurs every four years, and it has an extra day in February to account for the extra day in February due to the Earth's rotation. The extra day is added"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "model": "qwen2.5-0.5b-instruct",
+  "quant": "Q8_0",
+  "model_path": "models/Qwen2.5-0.5B-Instruct-GGUF/Qwen2.5-0.5B-Instruct-Q8_0.gguf",
+  "model_file_mb": 506.46636962890625,
+  "load_s": 0.4009719160021632,
+  "peak_rss_mb": 1134.921875,
+  "n_threads": 8,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 20.0,
+  "system": {
+    "os": "Darwin 27.0.0",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "physical_cores": 8,
+    "logical_cores": 8,
+    "ram_gb": 8.0,
+    "python": "3.12.8",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": null
+  },
+  "languages": {
+    "hi": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 4.737913486005089,
+        "chars_per_token": 1.0767991407089152,
+        "n_tokens": 1862,
+        "n_words": 393
+      },
+      "mcq_wall_s": 3.4356974999973318,
+      "mcq_energy_j": 62.27104568000001,
+      "gen_energy_j_per_token": 0.2269835894444444,
+      "ttft_s": {
+        "median": 0.0881564170049387,
+        "std": 0.05209582266719988,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 903.49445681198,
+        "std": 212.95378199133256,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 138.02851812561008,
+        "std": 8.606977128788957,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 89,
+          "text": " B. मदुरै\n\nReasoning: The Taman Talangan (Tamil: தமிலானாடு, Tamil: தமிலானாடு, romanized: Taman Talangan) is a state in the Indian state"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 78,
+          "text": " B. मंगल\n\nReasoning: The correct answer is B. मंगल, which is the correct answer to the question \"किस ग्रह को लाल ग्रह कहा जाता है?\" The word \"मं"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 72,
+          "text": " B. 365\n\nReasoning: The Gregorian calendar, which is used in India, follows the Hindu calendar year, which has 365 days. This is because the Hindu calendar year is based on the lunar cycle, which has 12 months, and each month has 30 or"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 8.296774193548387,
+        "chars_per_token": 0.9078538102643857,
+        "n_tokens": 2572,
+        "n_words": 310
+      },
+      "mcq_wall_s": 4.459778374999587,
+      "mcq_energy_j": 81.72518944000001,
+      "gen_energy_j_per_token": 0.25531833777777785,
+      "ttft_s": {
+        "median": 0.10360100000252714,
+        "std": 0.036243653206258206,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 1008.6794006239559,
+        "std": 162.02477245039503,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 128.07051603196018,
+        "std": 23.082632486681558,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 108,
+          "text": " B. மதுரை\n\nReasoning: The Tamil Nadu state is located in the southern part of India, bordering the Arabian Sea. It is known for its rich cultural heritage, including the Tamil language, music, and art. The Tamil Nadu state is also known for its beautiful beaches, including"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 113,
+          "text": " B. செவ்வாய்\n\nReasoning: The question asks about a type of pain that is described as \"chilly\" or \"cool\". Among the given options, \"செவ்வாய்\" (sivay) is the only word that"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 80,
+          "text": " B. 365\n\nReasoning: The Gregorian calendar, which is used in most countries, has 365 days in a year. This is the standard number of days in a non-leap year. The leap year rule states that a year is a leap year if it is divisible by "
+        }
+      ]
+    },
+    "en": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 1.61139896373057,
+        "chars_per_token": 3.469453376205788,
+        "n_tokens": 622,
+        "n_words": 386
+      },
+      "mcq_wall_s": 2.0699847500000033,
+      "mcq_energy_j": 39.284760640000016,
+      "gen_energy_j_per_token": 0.21540225555555545,
+      "ttft_s": {
+        "median": 0.05216541700065136,
+        "std": 0.01154932517881746,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 836.3896252469556,
+        "std": 122.98220028326116,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 137.74975580369485,
+        "std": 17.01058732850826,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 46,
+          "text": " B. Madurai\n\nReasoning: Madurai is the capital of Tamil Nadu, India. It is located in the state capital region of Tamil Nadu, which is situated in the southern part of the state. Madurai is the largest city in Tamil Nadu and is known for its rich cultural heritage, historical significance, and"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 39,
+          "text": " B. Mars\n\nReasoning: The Red Planet refers to the planet Mars, which is the fourth planet from the Sun in our solar system. It is known for its reddish appearance due to the presence of iron oxide (rust) on its surface. The other planets in our solar system are known as the Blue Plan"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 52,
+          "text": " C. 366\n\nReasoning: A leap year has an extra day added to February, making it 366 days long. This is because the Gregorian calendar, which is used in most countries, has a leap year rule that allows for an extra day every four years. This extra day is"
+        }
+      ]
+    }
+  }
+}

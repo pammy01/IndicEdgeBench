@@ -1,0 +1,157 @@
+{
+  "model": "qwen2.5-0.5b-instruct",
+  "quant": "Q4_K_M",
+  "model_path": "models/Qwen2.5-0.5B-Instruct-GGUF/Qwen2.5-0.5B-Instruct-Q4_K_M.gguf",
+  "model_file_mb": 379.37945556640625,
+  "load_s": 0.5797353329980979,
+  "peak_rss_mb": 724.734375,
+  "n_threads": 8,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 20.0,
+  "system": {
+    "os": "Darwin 27.0.0",
+    "machine": "arm64",
+    "cpu": "Apple M3",
+    "physical_cores": 8,
+    "logical_cores": 8,
+    "ram_gb": 8.0,
+    "python": "3.12.8",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": null
+  },
+  "languages": {
+    "hi": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 4.737913486005089,
+        "chars_per_token": 1.0767991407089152,
+        "n_tokens": 1862,
+        "n_words": 393
+      },
+      "mcq_wall_s": 4.577972958002647,
+      "mcq_energy_j": 51.743634920000005,
+      "gen_energy_j_per_token": 0.22129288722222226,
+      "ttft_s": {
+        "median": 0.12830745900282636,
+        "std": 0.008452004538772016,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 617.4919623838555,
+        "std": 71.77104736969468,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 131.7861822406894,
+        "std": 14.07382720386541,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 89,
+          "text": " B. मदुरै\n\nReasoning: The Tamlunada is a city in the state of Jharkhand, India. It is located in the western part of the state and is situated on the banks of the Tamlun River. The Tamlun River is a tributary"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 78,
+          "text": " B. मंगल\n\nReasoning: The correct answer is B. मंगल (Mangal), which is the correct answer to the question \"किस ग्रह को लाल ग्रह कहा जाता है?\" ("
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 72,
+          "text": " B. 365\n\nReasoning: The Gregorian calendar, which is used for the Indian calendar, has a leap year rule. A year is a leap year if it is divisible by 4, except for years that are divisible by 100 but not by 400. This means"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 8.296774193548387,
+        "chars_per_token": 0.9078538102643857,
+        "n_tokens": 2572,
+        "n_words": 310
+      },
+      "mcq_wall_s": 5.21289500000421,
+      "mcq_energy_j": 59.11091039999999,
+      "gen_energy_j_per_token": 0.2422843233333334,
+      "ttft_s": {
+        "median": 0.16401725000469014,
+        "std": 0.01989559660748871,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 571.2262461308651,
+        "std": 57.76521382548781,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 128.63495849073462,
+        "std": 6.482297194129065,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 108,
+          "text": " C. கோயம்புத்தூர்\n\nReasoning: The Tamil Nadu state is located in the southern part of India, bordering the Indian Ocean. It is the largest state in India by area and population. The state is known for its rich cultural heritage, including"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 113,
+          "text": " B. செவ்வாய்\n\nReasoning: The term \"சிவப்புக் கோள்\" is a medical term that translates to \"concussion\" in English. In the context of sports, a concussion is a traumatic brain injury that"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 80,
+          "text": " B. 365\n\nReasoning: The Gregorian calendar, which is used in most countries, has 365 days in a year. This is the standard number of days in a non-leap year. The reason for this is that a leap year occurs every 4 years, and the extra"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 1.61139896373057,
+        "chars_per_token": 3.469453376205788,
+        "n_tokens": 622,
+        "n_words": 386
+      },
+      "mcq_wall_s": 3.3777817500013043,
+      "mcq_energy_j": 36.31140735999999,
+      "gen_energy_j_per_token": 0.2167634533333334,
+      "ttft_s": {
+        "median": 0.10726754200004507,
+        "std": 0.047001525465703665,
+        "n": 9
+      },
+      "prefill_tps": {
+        "median": 410.6098001857865,
+        "std": 87.70596733826426,
+        "n": 9
+      },
+      "decode_tps": {
+        "median": 133.14643518996348,
+        "std": 5.407799356951252,
+        "n": 9
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 46,
+          "text": " A. Chennai\n\nReasoning: Tamil Nadu is the capital of India, and Chennai is the largest city in Tamil Nadu. While Madurai and Coimbatore are also important cities in Tamil Nadu, Chennai is the capital. The other cities in Tamil Nadu are smaller and less populous compared to Chennai. Therefore, the"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 39,
+          "text": " B. Mars\n\nReasoning: The Red Planet is the name given to the planet Mars in the Solar System. It is known for its reddish appearance due to the presence of iron oxide (rust) in its surface. The other planets in the Solar System are known as the Blue Planets (Mercury, Venus"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 52,
+          "text": " C. 366\n\nReasoning: A leap year has an extra day, which is February 29. This extra day is added to the original 365 days of a regular year. Therefore, a leap year has 366 days. The other options (364, "
+        }
+      ]
+    }
+  }
+}
