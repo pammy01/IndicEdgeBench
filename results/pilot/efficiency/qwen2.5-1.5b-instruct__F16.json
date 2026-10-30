@@ -1,0 +1,187 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "quant": "F16",
+  "model_path": "models\\Qwen2.5-1.5B-Instruct-GGUF\\Qwen2.5-1.5B-Instruct-f16.gguf",
+  "model_file_mb": 2950.35302734375,
+  "load_s": 1.3823202999919886,
+  "peak_rss_mb": 3133.15234375,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "e4f2c70"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 4.737913486005089,
+        "chars_per_token": 1.0767991407089152,
+        "n_tokens": 1862,
+        "n_words": 393
+      },
+      "mcq_wall_s": 47.091358499994385,
+      "mcq_energy_j": 2091.62109375,
+      "gen_energy_j_per_token": 4.767578125,
+      "ttft_s": {
+        "median": 1.152766499988502,
+        "std": 0.27228315546209114,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 67.66331256223876,
+        "std": 2.2867216845981315,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 16.320251201315717,
+        "std": 0.11894997855022925,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 89,
+          "text": " C. कोयंबटूर\n\nReasoning: तमिलनाडु की राजधानी कोयंबटूर है। कोयंबटूर तमिलनाड"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 78,
+          "text": " C. बृहस्पति\n\nReasoning: लाल ग्रह कहाँ आता है और इसका नाम क्या है? यह बृहस"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 72,
+          "text": " B. 365\n\nReasoning: लीप वर्ष में 365 दिन होते हैं। लीप वर्ष विशेष वर्ष है ज"
+        },
+        {
+          "id": "ieb-fb-004",
+          "n_prompt_tokens": 118,
+          "text": " A. ऑक्सीजन\n\nReasoning: प्रकाश संश्लेषण के लिए पौधे नीतिगत गैसों को लेते हैं।"
+        },
+        {
+          "id": "ieb-fb-005",
+          "n_prompt_tokens": 57,
+          "text": " C. 50\n\nReasoning: To find the product of 15 and 4, you can use the multiplication table or simply perform the calculation. 15 multiplied by 4 is 60, but since 60 is not one of the options, we need to find the closest option"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 8.296774193548387,
+        "chars_per_token": 0.9078538102643857,
+        "n_tokens": 2572,
+        "n_words": 310
+      },
+      "mcq_wall_s": 58.10262309999962,
+      "mcq_energy_j": 2606.953125,
+      "gen_energy_j_per_token": 5.11944580078125,
+      "ttft_s": {
+        "median": 1.6374448999995366,
+        "std": 0.5009455785076584,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 64.45760064159121,
+        "std": 1.4973664358394458,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 16.305303610602547,
+        "std": 0.08769466601129483,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 108,
+          "text": " B. மதுரை\n\nReasoning: தமிழ்நாட்டின் தலைநகரம் மதுரையாகும். மதுரை தம"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 113,
+          "text": " B. செவ்வாய்\n\nReasoning: செவ்வாய் என்பது ஒரு பெரும் கோள் என்பது சிவ"
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 80,
+          "text": " C. 366\n\nReasoning: In a leap year, February has 29 days instead of the usual 28. This extra day is added to keep the calendar in sync with the Earth's revolutions around the Sun. Therefore, the number of days in a leap year is 366"
+        },
+        {
+          "id": "ieb-fb-004",
+          "n_prompt_tokens": 159,
+          "text": " கார்பன் டைஆக்சைடு\n\nReasoning: ஒளிச்சேர்க்கை என்பது இரண்டாம் உலக வ"
+        },
+        {
+          "id": "ieb-fb-005",
+          "n_prompt_tokens": 60,
+          "text": " A. 60\n\nReasoning: To find the product of 15 and 4, you can use the multiplication table or simply perform the calculation. 15 × 4 = 60. Therefore, the correct answer is A. 60. This is a basic arithmetic operation that can"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 30,
+      "fertility": {
+        "tokens_per_word": 1.61139896373057,
+        "chars_per_token": 3.469453376205788,
+        "n_tokens": 622,
+        "n_words": 386
+      },
+      "mcq_wall_s": 29.815773800000898,
+      "mcq_energy_j": 1337.28515625,
+      "gen_energy_j_per_token": 4.3255615234375,
+      "ttft_s": {
+        "median": 0.7574972999864258,
+        "std": 0.07056438275189779,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 60.55794222490392,
+        "std": 0.6411419533689503,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 16.271462963596598,
+        "std": 0.02606479676203623,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "ieb-fb-001",
+          "n_prompt_tokens": 46,
+          "text": " A. Chennai\n\nReasoning: Chennai is the capital of Tamil Nadu, India. It is the largest city in the state and serves as the administrative, cultural, and economic center of Tamil Nadu. The other options listed are either not the capital or are not located in Tamil Nadu. Madurai is the capital of the"
+        },
+        {
+          "id": "ieb-fb-002",
+          "n_prompt_tokens": 39,
+          "text": " B. Mars\n\nReasoning: The Red Planet is a nickname for Mars, which is known for its reddish appearance due to the presence of iron oxide, commonly known as rust. This reddish hue is caused by the scattering of sunlight by the planet's thin atmosphere, which contains a high concentration of iron oxide."
+        },
+        {
+          "id": "ieb-fb-003",
+          "n_prompt_tokens": 52,
+          "text": " C. 366\n\nReasoning: A leap year occurs every four years, and it has 366 days instead of the usual 365 days. This extra day is added to the calendar to keep it in sync with the Earth's orbit around the Sun, which takes approximately 36"
+        },
+        {
+          "id": "ieb-fb-004",
+          "n_prompt_tokens": 45,
+          "text": " D. Carbon dioxide\n\nReasoning: In the process of photosynthesis, plants absorb carbon dioxide from the air to produce glucose and oxygen. This is a fundamental biological process that is crucial for life on Earth. The other gases listed (oxygen, nitrogen, and hydrogen) are not absorbed by plants for photosynthesis."
+        },
+        {
+          "id": "ieb-fb-005",
+          "n_prompt_tokens": 47,
+          "text": " A. 60\n\nReasoning: To find the product of 15 and 4, you can use the multiplication table or simply multiply the numbers. 15 × 4 = 60. This is because 15 is 10 + 5, and 10 × "
+        }
+      ]
+    }
+  }
+}
