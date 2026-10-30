@@ -1,5 +1,5 @@
 {
-  "data_source": "fallback",
+  "data_source": "milu",
   "system": {
     "os": "Windows 11",
     "machine": "AMD64",
@@ -9,6 +9,6 @@
     "ram_gb": 15.7,
     "python": "3.12.10",
     "llama_cpp_python": "0.3.19",
-    "git_commit": "e4f2c70"
+    "git_commit": "e0e480e"
   }
 }
