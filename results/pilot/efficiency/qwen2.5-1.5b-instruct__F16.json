@@ -1,0 +1,187 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "quant": "F16",
+  "model_path": "models\\Qwen2.5-1.5B-Instruct-GGUF\\Qwen2.5-1.5B-Instruct-f16.gguf",
+  "model_file_mb": 2950.35302734375,
+  "load_s": 1.310179899999639,
+  "peak_rss_mb": 3171.5546875,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "6fc3190"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 4.7520098948670375,
+        "chars_per_token": 1.1049908901613743,
+        "n_tokens": 30736,
+        "n_words": 6468
+      },
+      "mcq_wall_s": 602.3481899000035,
+      "mcq_energy_j": 27020.625,
+      "gen_energy_j_per_token": 5.23944091796875,
+      "ttft_s": {
+        "median": 1.6766417999897385,
+        "std": 0.3928535887304567,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 58.185439598996936,
+        "std": 1.3744851175445876,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 16.19388865773132,
+        "std": 0.10311518222023315,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-hi-test-00043",
+          "n_prompt_tokens": 148,
+          "text": " B. ETGBGR\n\nReasoning: In the given language, the letters 'I', 'P', 'O', 'R', and 'T' are used to represent the numbers 1, 2, 3, 4, and 5 respectively. The numbers 6, 7, "
+        },
+        {
+          "id": "milu-hi-test-00045",
+          "n_prompt_tokens": 76,
+          "text": " B. पीड़ा\n\nReasoning: बेमेल (असंगत) शब्द का चयन करने के लिए, आपको अपने अनुवाद �"
+        },
+        {
+          "id": "milu-hi-test-00287",
+          "n_prompt_tokens": 99,
+          "text": " A. जीने की इच्छा\n\nReasoning: 'जिजीविषा' is a Sanskrit word that translates to 'desire' or 'wish' in English. It is used to describe a strong desire or wish for something. The other options"
+        },
+        {
+          "id": "milu-hi-test-00359",
+          "n_prompt_tokens": 103,
+          "text": " A. लघ: + उर्मि\n\nReasoning: The word 'लघूर्मि' is a compound word formed by combining two words: 'लघु' (meaning 'slight' or 'little') and 'उर्मि' (meaning"
+        },
+        {
+          "id": "milu-hi-test-00365",
+          "n_prompt_tokens": 80,
+          "text": " B. प्रस्थान\n\nReasoning: The word 'प्रशस्त' is a Sanskrit word that means 'ready' or 'prepared'. It is derived from the root 'pras' which means 'to prepare' or 'to make ready'. Therefore, the correct answer"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 8.420833333333333,
+        "chars_per_token": 0.9447743141459124,
+        "n_tokens": 36378,
+        "n_words": 4320
+      },
+      "mcq_wall_s": 723.5223647999956,
+      "mcq_energy_j": 32449.1015625,
+      "gen_energy_j_per_token": 6.0589599609375,
+      "ttft_s": {
+        "median": 2.9014007999940077,
+        "std": 1.0175102894992958,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 59.452699071626114,
+        "std": 0.9583233102662204,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 16.205108729975183,
+        "std": 0.16308222052188417,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-ta-test-00015",
+          "n_prompt_tokens": 48,
+          "text": " A. Chennai\n\nReasoning: Cord blood banks are typically located in major metropolitan areas with a high demand for stem cell transplants. Chennai, being the capital city of Tamil Nadu, has a significant population and medical infrastructure, making it a suitable location for a cord blood bank. The other cities mentioned (Coimbat"
+        },
+        {
+          "id": "milu-ta-test-00102",
+          "n_prompt_tokens": 235,
+          "text": " C. I, II மற்றும் IV\n\nExplanation: பவபூதி மற்றும் சுபந்து இரு பொருள் தவறாக ப�"
+        },
+        {
+          "id": "milu-ta-test-00171",
+          "n_prompt_tokens": 180,
+          "text": " சுவீடன்\n\nReasoning: The question is asking about a person who moved from a country to another country. The correct answer is சுவீடன் (Ceylon), which is the former name of Sri Lanka. Sri Lanka is a country in South Asia"
+        },
+        {
+          "id": "milu-ta-test-00204",
+          "n_prompt_tokens": 137,
+          "text": " A. நியூட்டன்\n\nReasoning: மின்காந்த அலைகள் என்பது நியூட்டன் மூன்றா"
+        },
+        {
+          "id": "milu-ta-test-00211",
+          "n_prompt_tokens": 173,
+          "text": " B. 1921\n\nReasoning: The question is asking about the year when the Indian National Congress (INC) adopted the Swaraj Resolution. The Swaraj Resolution was a significant document that declared India's independence from British rule. It was adopted on August 8, 1921"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 1.455458587189198,
+        "chars_per_token": 4.019006674963231,
+        "n_tokens": 8839,
+        "n_words": 6073
+      },
+      "mcq_wall_s": 287.93998830000055,
+      "mcq_energy_j": 12912.890624999985,
+      "gen_energy_j_per_token": 4.724670410156264,
+      "ttft_s": {
+        "median": 1.2315861999959452,
+        "std": 0.1158758353763144,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 56.726841013561405,
+        "std": 1.1688940183370835,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 16.130724208274373,
+        "std": 0.09575232074846853,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-en-test-00011",
+          "n_prompt_tokens": 72,
+          "text": " B. 57\n\nReasoning: The given codes are 'BOARD' = 36 and 'MILTON' = 79. To decode 'STABLE', we need to find the numerical values for each letter in the word 'STABLE'. The numerical values for the letters are as follows:"
+        },
+        {
+          "id": "milu-en-test-00039",
+          "n_prompt_tokens": 72,
+          "text": " A. G+3K\n\nExplanation: The modulus of elasticity (G) is related to the Young's modulus (K) by the equation G = 9KG. This equation shows that the modulus of elasticity is 9 times the product of the modulus of elasticity and the Young's modulus. Therefore, the correct"
+        },
+        {
+          "id": "milu-en-test-00095",
+          "n_prompt_tokens": 72,
+          "text": " B. 4186 Joule\n\nReasoning: \n1 kilo-Watt-hour (kWh) is a unit of energy equal to 3.6 million joules. Therefore, 1.0 kilo-Watt-hour is equal to 3,600,000 jou"
+        },
+        {
+          "id": "milu-en-test-00115",
+          "n_prompt_tokens": 56,
+          "text": " C. Odissi\n\nReasoning: Odissi is a classical dance form that originated in the state of Odisha, India. It is known for its graceful movements and intricate footwork, and is considered one of the oldest surviving classical dance forms in the world. The other options listed are not associated with Od"
+        },
+        {
+          "id": "milu-en-test-00163",
+          "n_prompt_tokens": 58,
+          "text": " D. V\n\nReasoning: The series appears to be a sequence of letters where each letter is formed by adding the previous letter's letter code to the next letter's letter code. For example, C (3) + D (4) = G (6), D (4) + G (6) ="
+        }
+      ]
+    }
+  }
+}

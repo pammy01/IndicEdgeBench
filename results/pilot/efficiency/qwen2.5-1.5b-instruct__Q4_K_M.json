@@ -1,0 +1,187 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "quant": "Q4_K_M",
+  "model_path": "models\\Qwen2.5-1.5B-Instruct-GGUF\\Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+  "model_file_mb": 940.369384765625,
+  "load_s": 1.3359583999990718,
+  "peak_rss_mb": 1755.8515625,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "6fc3190"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 4.7520098948670375,
+        "chars_per_token": 1.1049908901613743,
+        "n_tokens": 30736,
+        "n_words": 6468
+      },
+      "mcq_wall_s": 302.0633060000109,
+      "mcq_energy_j": 13547.28515625,
+      "gen_energy_j_per_token": 2.300537109375,
+      "ttft_s": {
+        "median": 0.7759762000059709,
+        "std": 0.18392702206154235,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 127.28529441014174,
+        "std": 3.929182644546117,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 38.882706058427054,
+        "std": 1.976829834304427,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-hi-test-00043",
+          "n_prompt_tokens": 148,
+          "text": " B. ETGBGR\n\nReasoning: In the given language, the letters 'K', 'G', 'P', 'R', and 'T' are used to represent the digits 1, 4, 7, 8, and 9 respectively. The number 'CREDIT' can be represented"
+        },
+        {
+          "id": "milu-hi-test-00045",
+          "n_prompt_tokens": 76,
+          "text": " B. पीड़ा\n\nReasoning: बेमेल शब्द का चयन करने के लिए, वह शब्द जो असंगत होता है �"
+        },
+        {
+          "id": "milu-hi-test-00287",
+          "n_prompt_tokens": 99,
+          "text": " B. जीतने की इच्छा\n\nReasoning: 'जिजीविषा' एक भारतीय वाक्य है जो अर्थ भारतीय"
+        },
+        {
+          "id": "milu-hi-test-00359",
+          "n_prompt_tokens": 103,
+          "text": " A. लघ: + उर्मि\n\nReasoning: The term 'लघूर्मि' is a compound word in Sanskrit. The root 'लघु' means 'diminished' or 'less' and 'र्मि' means 'to burn"
+        },
+        {
+          "id": "milu-hi-test-00365",
+          "n_prompt_tokens": 80,
+          "text": " B. प्रस्थान\n\nReasoning: 'प्रशस्त' का पर्यायवाची निर्मित होता है जब एक व्यक्ति न"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 8.420833333333333,
+        "chars_per_token": 0.9447743141459124,
+        "n_tokens": 36378,
+        "n_words": 4320
+      },
+      "mcq_wall_s": 344.52794410000206,
+      "mcq_energy_j": 15454.74609375,
+      "gen_energy_j_per_token": 2.69781494140625,
+      "ttft_s": {
+        "median": 1.3534653999959119,
+        "std": 0.5275698866592005,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 128.36594629590994,
+        "std": 8.702183741083923,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 38.73637517167988,
+        "std": 0.8595617156525461,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-ta-test-00015",
+          "n_prompt_tokens": 48,
+          "text": " A. Chennai\n\nReasoning: Cord blood banks are typically located in major metropolitan areas with a high demand for medical services. Chennai is one of the largest cities in Tamil Nadu and has a significant population, making it a logical choice for a cord blood bank. The other cities listed (Coimbatore, Madurai"
+        },
+        {
+          "id": "milu-ta-test-00102",
+          "n_prompt_tokens": 235,
+          "text": " C. I, II மற்றும் IV\n\nExplanation: பவபூதி மற்றும் சுபந்து வாசவதத்தம் இருந்து �"
+        },
+        {
+          "id": "milu-ta-test-00171",
+          "n_prompt_tokens": 180,
+          "text": " சுவீடன்\n\nReasoning: The question is asking about a person who helped a refugee from a certain country. The options provided are all countries, and we need to identify which one is the correct answer based on the context of the question. \n\n- சுவீட"
+        },
+        {
+          "id": "milu-ta-test-00204",
+          "n_prompt_tokens": 137,
+          "text": " A. நியூட்டன்\n\nReasoning: மின்காந்த அலைகள் என்ற கருத்தை முதன் முதலில"
+        },
+        {
+          "id": "milu-ta-test-00211",
+          "n_prompt_tokens": 173,
+          "text": " B. 1921\n\nReasoning: The question is asking about the year when the Indian independence movement was declared. The correct answer is 1921. The Indian independence movement, also known as the Indian National Movement, was declared in 1921. This movement was a significant period"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 1.455458587189198,
+        "chars_per_token": 4.019006674963231,
+        "n_tokens": 8839,
+        "n_words": 6073
+      },
+      "mcq_wall_s": 138.3799660999939,
+      "mcq_energy_j": 6202.5,
+      "gen_energy_j_per_token": 2.1011962890625,
+      "ttft_s": {
+        "median": 0.5743207999912556,
+        "std": 0.13574557856371913,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 123.46816792327556,
+        "std": 17.344169837930778,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 38.239680612419534,
+        "std": 2.6227716497219453,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-en-test-00011",
+          "n_prompt_tokens": 72,
+          "text": " B. 57\n\nReasoning: The given codes suggest that each letter is assigned a numerical value based on its position in the alphabet. For example, 'A' is coded as '1', 'B' as '2', and so on. The numbers provided (36 and 79) are"
+        },
+        {
+          "id": "milu-en-test-00039",
+          "n_prompt_tokens": 72,
+          "text": " B. 3G+K\n\nExplanation: The modulus of elasticity (G) is related to the Young's modulus (K) by the equation G = 3K. This means that if you multiply the Young's modulus by 3, you get the modulus of elasticity. Therefore, the correct equation that relates"
+        },
+        {
+          "id": "milu-en-test-00095",
+          "n_prompt_tokens": 72,
+          "text": " B. 4186 Joule\n\nReasoning: A kilo-Watt-hour (kWh) is a unit of energy equal to 3,600,000 Joules. Therefore, 1.0 kilo-Watt-hour is equal to 3,600,"
+        },
+        {
+          "id": "milu-en-test-00115",
+          "n_prompt_tokens": 56,
+          "text": " C. Odissi\n\nReasoning: Odissi is a traditional Indian dance form that originated in the state of Odisha, India. It is known for its graceful movements and intricate footwork, and is considered one of the oldest surviving classical dance forms in the world. The other options listed are not associated with"
+        },
+        {
+          "id": "milu-en-test-00163",
+          "n_prompt_tokens": 58,
+          "text": " Option C, U.\n\nReasoning: The series appears to be a combination of the first letter of each word in a list of common English words. The list is: \"Cats\", \"Dogs\", \"Giraffes\", \"Lions\", \"Squirrels\", \"Bears\". The first letter"
+        }
+      ]
+    }
+  }
+}

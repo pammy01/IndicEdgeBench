@@ -1,0 +1,187 @@
+{
+  "model": "llama-3.2-1b-instruct",
+  "quant": "F16",
+  "model_path": "models\\Llama-3.2-1B-Instruct-GGUF\\Llama-3.2-1B-Instruct-f16.gguf",
+  "model_file_mb": 2364.7264099121094,
+  "load_s": 1.1712090999935754,
+  "peak_rss_mb": 2635.43359375,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "6fc3190"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 2.782931354359926,
+        "chars_per_token": 1.8868333333333334,
+        "n_tokens": 18000,
+        "n_words": 6468
+      },
+      "mcq_wall_s": 298.7747131000069,
+      "mcq_energy_j": 13393.0078125,
+      "gen_energy_j_per_token": 3.87115478515625,
+      "ttft_s": {
+        "median": 1.023614700010512,
+        "std": 0.21398115694800643,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 80.66065547197019,
+        "std": 10.219962057422718,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 20.11259862756959,
+        "std": 0.5974384701008343,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-hi-test-00043",
+          "n_prompt_tokens": 112,
+          "text": " A. ETDEGR\n\nReasoning: इस प्रश्न का उत्तर देने के लिए, हमें कूट भाषा के नियमों को समझना होगा और 'CREDIT' शब्द को इस कूट भाषा में लिख"
+        },
+        {
+          "id": "milu-hi-test-00045",
+          "n_prompt_tokens": 57,
+          "text": " C. जख्म\n\nरationale: बेमेल शब्द का चयन करने से पहले यह समझना आवश्यक है कि यह शब्द क्या संदर्भ में उपयोग किया जाता है। जख्म शब्द का अर्थ"
+        },
+        {
+          "id": "milu-hi-test-00287",
+          "n_prompt_tokens": 72,
+          "text": " A. जीने की इच्छा\n\n\nExplanation: जिजीविषा का अर्थ है जीने की इच्छा, जो कि जीवित प्राणियों के लिए आवश्यक है। यह एक प्रकार की इच्छ"
+        },
+        {
+          "id": "milu-hi-test-00359",
+          "n_prompt_tokens": 83,
+          "text": " A. लघ: + उर्मि\n\nReasoning: संधि-विच्छेद के लिए, लघु (लघु) को उर्मि (ऊर्मि) से शुरू करना चाहिए। यह संधि-व"
+        },
+        {
+          "id": "milu-hi-test-00365",
+          "n_prompt_tokens": 61,
+          "text": " B. प्रस्थान\n\nReasoning: प्रशस्त शब्द का अर्थ है किसी व्यक्ति को प्रस्थान देना या प्रोत्साहित करना। इसलिए, पर्यायवाची प्रस्थान होगी।"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 10.181018518518519,
+        "chars_per_token": 0.7814333136283025,
+        "n_tokens": 43982,
+        "n_words": 4320
+      },
+      "mcq_wall_s": 617.6395696999971,
+      "mcq_energy_j": 27696.09375,
+      "gen_energy_j_per_token": 4.94598388671875,
+      "ttft_s": {
+        "median": 2.266698899999028,
+        "std": 0.9172733158682057,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 83.17545180346735,
+        "std": 6.8769053841810575,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 20.386956075985648,
+        "std": 0.6129046006454305,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-ta-test-00015",
+          "n_prompt_tokens": 49,
+          "text": " B. Coimbatore\n\nExplanation: Cord blood banks are located in various places across India, including Tamil Nadu. Coimbatore is a major city in Tamil Nadu and is known for its medical facilities, including cord blood banks. Therefore, it is likely that there are cord blood banks located in Coimbat"
+        },
+        {
+          "id": "milu-ta-test-00102",
+          "n_prompt_tokens": 286,
+          "text": " C. I, II மற்றும் IV\n\nவிடை:\nபவபூதி - மாலதிமாதவம் என்பது"
+        },
+        {
+          "id": "milu-ta-test-00171",
+          "n_prompt_tokens": 210,
+          "text": " A. சுவீடன்\n\nவிடை:\nதற்போது ஐ.நா. சபையின் பொது�"
+        },
+        {
+          "id": "milu-ta-test-00204",
+          "n_prompt_tokens": 158,
+          "text": " A. நியூட்டன்\n\nவிளக்கம்: மின்காந்த அலைகள் என்பது மின"
+        },
+        {
+          "id": "milu-ta-test-00211",
+          "n_prompt_tokens": 191,
+          "text": " B. 1921\n\nவிடை:\nசௌரி-சௌரா சம்பவத்திற்குப் பிறகு எந்த ஆ"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 1.4170920467643668,
+        "chars_per_token": 4.127817801533814,
+        "n_tokens": 8606,
+        "n_words": 6073
+      },
+      "mcq_wall_s": 202.64094349999505,
+      "mcq_energy_j": 9084.140625,
+      "gen_energy_j_per_token": 3.658447265625,
+      "ttft_s": {
+        "median": 0.7895591999986209,
+        "std": 0.0654494494632663,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 82.3018861084173,
+        "std": 1.1939370798419209,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 20.080987579144022,
+        "std": 0.08705692583946767,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-en-test-00011",
+          "n_prompt_tokens": 67,
+          "text": " B. 57\n\nExplanation:  The code for 'BOARD' is 3+8+9+0 = 20.  The code for 'MILTON' is 1+5+1+2 = 9.  To find the code for 'STABLE', we need to add "
+        },
+        {
+          "id": "milu-en-test-00039",
+          "n_prompt_tokens": 73,
+          "text": " D. 9KG\n\nExplanation: The modulus of elasticity (E) is a measure of a material's ability to resist deformation under stress. It is defined as the ratio of stress (σ) to strain (ε) in the following equation: E = σ / ε. The stress (σ) is related to"
+        },
+        {
+          "id": "milu-en-test-00095",
+          "n_prompt_tokens": 65,
+          "text": " B. 4186 Joule\n\nExplanation: 1 kilowatt-hour (kWh) is equal to 3,600,000 joules (J). Therefore, 1.0 kilowatt-hour is equal to 3,600,000 joules. This is equivalent to 3.6"
+        },
+        {
+          "id": "milu-en-test-00115",
+          "n_prompt_tokens": 57,
+          "text": " C. Odissi\n\nExplanation: Odissi is a classical dance form from the state of Odisha, India. It is a traditional dance form that originated in the 16th century and is characterized by its intricate hand gestures, facial expressions, and body movements. Odissi is considered one of the oldest"
+        },
+        {
+          "id": "milu-en-test-00163",
+          "n_prompt_tokens": 59,
+          "text": " B. M\n\nExplanation: The series appears to be a sequence of letters that are the names of the planets in our solar system, in order. The first letter of each word corresponds to the first letter of the next letter in the sequence. Therefore, the first letter of the next letter in the sequence would be the"
+        }
+      ]
+    }
+  }
+}

@@ -9,6 +9,6 @@
     "ram_gb": 15.7,
     "python": "3.12.10",
     "llama_cpp_python": "0.3.19",
-    "git_commit": "e0e480e"
+    "git_commit": "6fc3190"
   }
 }

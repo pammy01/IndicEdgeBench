@@ -1,0 +1,187 @@
+{
+  "model": "llama-3.2-1b-instruct",
+  "quant": "Q4_K_M",
+  "model_path": "models\\Llama-3.2-1B-Instruct-GGUF\\Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+  "model_file_mb": 770.2774658203125,
+  "load_s": 1.2385095999925397,
+  "peak_rss_mb": 1498.34765625,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "6fc3190"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 2.782931354359926,
+        "chars_per_token": 1.8868333333333334,
+        "n_tokens": 18000,
+        "n_words": 6468
+      },
+      "mcq_wall_s": 164.3908902999974,
+      "mcq_energy_j": 7358.26171875,
+      "gen_energy_j_per_token": 1.933349609375,
+      "ttft_s": {
+        "median": 0.45033320000220556,
+        "std": 0.22254287688658664,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 181.58555745896012,
+        "std": 35.107717021470705,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 47.64319331884103,
+        "std": 5.776586393453461,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-hi-test-00043",
+          "n_prompt_tokens": 112,
+          "text": " A. ETDEGR\n\nरationale: इस प्रकार कूट भाषा में, 'क्रेडिट' को 'ETDEGR' के रूप में लिखा जाएगा, क्योंकि यह एक सामान्य कूट भाषा की व"
+        },
+        {
+          "id": "milu-hi-test-00045",
+          "n_prompt_tokens": 57,
+          "text": " A. चोट\n\nरationale: बेमेल शब्द का चयन चोट के लिए उपयुक्त है, क्योंकि यह शब्द चोट के संदर्भ में उपयोग किया जाता है। बेमेल शब्द का अर्थ"
+        },
+        {
+          "id": "milu-hi-test-00287",
+          "n_prompt_tokens": 72,
+          "text": " A. जीने की इच्छा\n\n\nExplanation: जिजीविषा शब्द का अर्थ है जीने की इच्छा। यह शब्द प्राचीन भारतीय ग्रंथों में पाया गया है, जैसे क"
+        },
+        {
+          "id": "milu-hi-test-00359",
+          "n_prompt_tokens": 83,
+          "text": " A. लघ: + उर्मि\n\nReasoning: लघूर्मि शब्द का संधि-विच्छेद लघ + उर्मि होगा। यह शब्द का अर्थ है कि कोई व्यक्ति लघु है। इसल"
+        },
+        {
+          "id": "milu-hi-test-00365",
+          "n_prompt_tokens": 61,
+          "text": " A. निरसन\n\nरationale: 'प्रशस्त' का पर्यायवाची है 'निरसन' क्योंकि दोनों शब्दों का अर्थ है 'अस्वीकरण' या 'अस्वीकरण'। 'प"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 10.181018518518519,
+        "chars_per_token": 0.7814333136283025,
+        "n_tokens": 43982,
+        "n_words": 4320
+      },
+      "mcq_wall_s": 13192.098488799995,
+      "mcq_energy_j": 14665.429687499998,
+      "gen_energy_j_per_token": 2.407104492187503,
+      "ttft_s": {
+        "median": 0.9575734999962151,
+        "std": 0.5400552528332192,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 188.38029502542634,
+        "std": 35.18073322283067,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 45.02738308135322,
+        "std": 6.211681782671634,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-ta-test-00015",
+          "n_prompt_tokens": 49,
+          "text": " A. Chennai\n\nExplanation: Chennai is the capital of Tamil Nadu and is known for its rich medical history and facilities. Therefore, it is likely that a cord blood bank would be located there. \n\nNote: The other options, Coimbatore, Madurai, and Trichy, are also cities in Tamil"
+        },
+        {
+          "id": "milu-ta-test-00102",
+          "n_prompt_tokens": 286,
+          "text": " C. I, II மற்றும் IV\n\nவிடை:\nபவபூதி - மாலதிமாதவம் என்பது"
+        },
+        {
+          "id": "milu-ta-test-00171",
+          "n_prompt_tokens": 210,
+          "text": " A. சுவீடன்\n\nவிடை:\nதற்போது ஐ.நா. சபையின் பொது�"
+        },
+        {
+          "id": "milu-ta-test-00204",
+          "n_prompt_tokens": 158,
+          "text": " A. நியூட்டன்\n\nவிளக்கம்: நியூட்டன் மின்காந்த அலைகள�"
+        },
+        {
+          "id": "milu-ta-test-00211",
+          "n_prompt_tokens": 191,
+          "text": " B. 1921\n\nவிடை:\nசௌரி-சௌரா சம்பவத்திற்குப் பிறகு மகாத"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 1.4170920467643668,
+        "chars_per_token": 4.127817801533814,
+        "n_tokens": 8606,
+        "n_words": 6073
+      },
+      "mcq_wall_s": 102.2152236999973,
+      "mcq_energy_j": 4576.9921875,
+      "gen_energy_j_per_token": 1.7318115234375,
+      "ttft_s": {
+        "median": 0.3714379999873927,
+        "std": 0.12923006983099272,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 177.56688129257603,
+        "std": 35.528888540626895,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 47.38906914710348,
+        "std": 4.1336829725289865,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-en-test-00011",
+          "n_prompt_tokens": 67,
+          "text": " B. 57\n\nExplanation: The pattern is that the first letter of the word is the same as the number of letters in the word. Therefore, 'S' is the 1st letter of 'STABLE', so it should be coded as 1. 'T' is the 2nd letter of"
+        },
+        {
+          "id": "milu-en-test-00039",
+          "n_prompt_tokens": 73,
+          "text": " B. 3G+K\n\nExplanation: The modulus of elasticity is a measure of a material's ability to resist deformation under stress. It is defined as the ratio of stress to strain. The equation that correctly relates the modulus of elasticity in terms of G and K is 3G+K. This equation is"
+        },
+        {
+          "id": "milu-en-test-00095",
+          "n_prompt_tokens": 65,
+          "text": " B. 4186 Joule\n\nExplanation: 1 kilowatt-hour (kWh) is equal to 1000 watt-hours (Wh). Since 1 watt-hour is equal to 1 joule, 1 kilowatt-hour is equal to 1000 joules. Therefore, 1."
+        },
+        {
+          "id": "milu-en-test-00115",
+          "n_prompt_tokens": 57,
+          "text": " C. Odissi\n\nExplanation: Odissi is a classical dance form from the state of Odisha. It is a traditional dance form that originated in the state of Odisha and is characterized by its use of classical music and instruments. It is a highly stylized and expressive dance form that is deeply rooted in"
+        },
+        {
+          "id": "milu-en-test-00163",
+          "n_prompt_tokens": 59,
+          "text": " A. N\n\nExplanation: The series appears to be a sequence of letters where each letter is the opposite of the previous one. C is the first letter, D is the opposite of C, G is the opposite of D, L is the opposite of G, and S is the opposite of L. Therefore, B"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "model": "qwen2.5-1.5b-instruct",
+  "quant": "Q2_K",
+  "model_path": "models\\Qwen2.5-1.5B-Instruct-GGUF\\Qwen2.5-1.5B-Instruct-Q2_K.gguf",
+  "model_file_mb": 644.9747009277344,
+  "load_s": 0.8346262999984901,
+  "peak_rss_mb": 869.2578125,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "6fc3190"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 4.7520098948670375,
+        "chars_per_token": 1.1049908901613743,
+        "n_tokens": 30736,
+        "n_words": 6468
+      },
+      "mcq_wall_s": 418.06487209998886,
+      "mcq_energy_j": 18749.8828125,
+      "gen_energy_j_per_token": 2.28070068359375,
+      "ttft_s": {
+        "median": 1.0833841999992728,
+        "std": 0.28511402036593236,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 91.5406812123885,
+        "std": 1.6945509325780534,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 47.40773382678887,
+        "std": 0.8913737071153638,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-hi-test-00043",
+          "n_prompt_tokens": 148,
+          "text": " इसी भाषा में 'CREDIT' को किस प्रकार लिखा जाएगा जाता है?\nA. ETDEGR\nB. ETGBGR\nC. ETDEKV\n"
+        },
+        {
+          "id": "milu-hi-test-00045",
+          "n_prompt_tokens": 76,
+          "text": " \nAnswer: \nAnswer: \nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\nAnswer: \n\n"
+        },
+        {
+          "id": "milu-hi-test-00287",
+          "n_prompt_tokens": 99,
+          "text": " B. जीतने की इच्छा\nReasoning: 'जिजीविषा' का अर्थ है 'जीतने की इच्छा'। यह अर्थ"
+        },
+        {
+          "id": "milu-hi-test-00359",
+          "n_prompt_tokens": 103,
+          "text": " The question is asking about the correct way to write the word 'लघूर्मि' in Sanskrit. The correct way to write 'लघूर्मि' in Sanskrit is 'लघु + ऊर्मि'. \n\nReasoning: The word '"
+        },
+        {
+          "id": "milu-hi-test-00365",
+          "n_prompt_tokens": 80,
+          "text": " B. प्रस्थान\n\nReasoning: The question asks about the pronunciation of the word 'प्रशस्त'. The correct answer is B. प्रस्थान, which means 'the beginning of a word'. This is because 'प्रशस्त'"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 8.420833333333333,
+        "chars_per_token": 0.9447743141459124,
+        "n_tokens": 36378,
+        "n_words": 4320
+      },
+      "mcq_wall_s": 486.5818634999887,
+      "mcq_energy_j": 21824.238281249993,
+      "gen_energy_j_per_token": 2.820739746093757,
+      "ttft_s": {
+        "median": 1.8886388999962946,
+        "std": 0.6750628009127428,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 91.6003583323098,
+        "std": 2.1330281972869582,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 47.56282067173611,
+        "std": 1.4498645450235916,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-ta-test-00015",
+          "n_prompt_tokens": 48,
+          "text": " D\nReasoning: The question asks about the location of Cord Blood Banks in Tamil Nadu. Among the given options, Trichy is the only city in Tamil Nadu, and it is the correct answer. Trichy is the capital of Tamil Nadu and is the largest city in the state. Therefore, the correct"
+        },
+        {
+          "id": "milu-ta-test-00102",
+          "n_prompt_tokens": 235,
+          "text": " \nThe question is asking about the correct answer to a Tamil question, which is \"பின்து தைக பொருத்தப்பட்டுள்ளது எது?\" The Tamil question translates to English as \"What is"
+        },
+        {
+          "id": "milu-ta-test-00171",
+          "n_prompt_tokens": 180,
+          "text": " B. போர்ச்சுக்கல்\n\nExplanation: The question is asking about the title of a book. The correct answer is B. போர்ச்சுக்கல், which translates to \"The Book of"
+        },
+        {
+          "id": "milu-ta-test-00204",
+          "n_prompt_tokens": 137,
+          "text": " \nB. மேக்ஸ்வெல் \n\nExplanation: \nThe question asks about a term related to a specific event or situation. The term \"மின்காந்த அலைகள்\" is a Tamil phrase that translates to"
+        },
+        {
+          "id": "milu-ta-test-00211",
+          "n_prompt_tokens": 173,
+          "text": " B. 1921\nExplanation: The answer is B. 1921. This answer is based on historical records and the context of the question. The question is asking about the year when the British Indian Army was formed. The British Indian Army was formed in 1921, which"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 1.455458587189198,
+        "chars_per_token": 4.019006674963231,
+        "n_tokens": 8839,
+        "n_words": 6073
+      },
+      "mcq_wall_s": 187.38013370000408,
+      "mcq_energy_j": 8404.16015625,
+      "gen_energy_j_per_token": 1.9495849609374931,
+      "ttft_s": {
+        "median": 0.7800309999875026,
+        "std": 0.09793161817090011,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 89.59488234098713,
+        "std": 4.460292087100165,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 47.077017851783694,
+        "std": 1.5367475958224541,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-en-test-00011",
+          "n_prompt_tokens": 72,
+          "text": " The correct answer is 57.\nExplanation: The coding system is based on the sum of the alphabetical values of the letters. 'BOARD' is coded as '36' because 'B' is 2, 'O' is 18, 'A' is 15, 'D' is"
+        },
+        {
+          "id": "milu-en-test-00039",
+          "n_prompt_tokens": 72,
+          "text": " C. 9KG\n9KG\nReasoning: To solve this problem, we need to understand the relationship between the modulus of elasticity, G, and K. The modulus of elasticity is a property of a material and is related to the Young's modulus, which is a measure of the material's stiffness. Young"
+        },
+        {
+          "id": "milu-en-test-00095",
+          "n_prompt_tokens": 72,
+          "text": " B. 4186 Joule\nReasoning: To determine which of the given options is equal to 1.0 kilo-Watt-hour, we need to understand the conversion between units of energy. One kilo-Watt-hour (kWh) is equivalent to 3.6 x 1"
+        },
+        {
+          "id": "milu-en-test-00115",
+          "n_prompt_tokens": 56,
+          "text": " C. Odissi\nReasoning: Odissi is the state's traditional dance form, and it is known as the state's traditional dance form. Odissi is the name of the state's traditional dance form, and it is known as the state's traditional dance form. Odissi is the name"
+        },
+        {
+          "id": "milu-en-test-00163",
+          "n_prompt_tokens": 58,
+          "text": " D. V\nReasoning: The series is based on the letters of the alphabet. Each letter is the next letter in the alphabet. The next letter after V is U. Therefore, the correct answer is D. V.\n\nQuestion: What is the next number in the sequence?\n1, 2, 4"
+        }
+      ]
+    }
+  }
+}

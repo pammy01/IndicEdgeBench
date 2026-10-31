@@ -1,0 +1,187 @@
+{
+  "model": "llama-3.2-1b-instruct",
+  "quant": "Q8_0",
+  "model_path": "models\\Llama-3.2-1B-Instruct-GGUF\\Llama-3.2-1B-Instruct-Q8_0.gguf",
+  "model_file_mb": 1259.8829345703125,
+  "load_s": 0.8755590999935521,
+  "peak_rss_mb": 1530.2109375,
+  "n_threads": 12,
+  "n_gpu_layers": 0,
+  "energy_method": "estimated",
+  "tdp_watts": 45,
+  "system": {
+    "os": "Windows 11",
+    "machine": "AMD64",
+    "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+    "physical_cores": 12,
+    "logical_cores": 16,
+    "ram_gb": 15.7,
+    "python": "3.12.10",
+    "llama_cpp_python": "0.3.19",
+    "git_commit": "6fc3190"
+  },
+  "languages": {
+    "hi": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 2.782931354359926,
+        "chars_per_token": 1.8868333333333334,
+        "n_tokens": 18000,
+        "n_words": 6468
+      },
+      "mcq_wall_s": 277.01639029999205,
+      "mcq_energy_j": 12430.13671875,
+      "gen_energy_j_per_token": 2.737548828125,
+      "ttft_s": {
+        "median": 0.877521300004446,
+        "std": 0.36788488648799905,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 92.52540796352758,
+        "std": 18.517003223501188,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 34.17812619446794,
+        "std": 2.3366257448111085,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-hi-test-00043",
+          "n_prompt_tokens": 112,
+          "text": " A. ETDEGR\n\nReasoning: इस प्रश्न का उत्तर देने के लिए, हमें कूट भाषा के नियमों को समझना होगा और 'CREDIT' शब्द को इस कूट भाषा में लिख"
+        },
+        {
+          "id": "milu-hi-test-00045",
+          "n_prompt_tokens": 57,
+          "text": " C. जख्म\n\nरationale: बेमेल शब्द का चयन करने से पहले यह समझना आवश्यक है कि यह शब्द क्या संदर्भ में उपयोग किया जाता है। जख्म शब्द का अर्थ"
+        },
+        {
+          "id": "milu-hi-test-00287",
+          "n_prompt_tokens": 72,
+          "text": " A. जीने की इच्छा\n\n\nExplanation: जिजीविषा का अर्थ है जीने की इच्छा, जो कि जीवित प्राणियों के लिए आवश्यक है। यह शब्द प्राचीन भारतीय"
+        },
+        {
+          "id": "milu-hi-test-00359",
+          "n_prompt_tokens": 83,
+          "text": " A. लघ: + उर्मि\n\nReasoning: लघूर्मि शब्द का संधि-विच्छेद लघु + उर्मि होगा। यह शब्द का अर्थ है कि लघु में उर्मि का"
+        },
+        {
+          "id": "milu-hi-test-00365",
+          "n_prompt_tokens": 61,
+          "text": " A. निरसन\n\nReasoning: प्रशस्त शब्द का पर्यायवाची शब्द निरसन है, क्योंकि दोनों शब्दों का अर्थ है किसी चीज़ को स्वीकार करना या म"
+        }
+      ]
+    },
+    "ta": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 10.181018518518519,
+        "chars_per_token": 0.7814333136283025,
+        "n_tokens": 43982,
+        "n_words": 4320
+      },
+      "mcq_wall_s": 552.938917499996,
+      "mcq_energy_j": 24809.0625,
+      "gen_energy_j_per_token": 3.59381103515625,
+      "ttft_s": {
+        "median": 2.0274745000060648,
+        "std": 0.8563696996511715,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 94.20587040647301,
+        "std": 5.010716997825138,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 35.08226205757788,
+        "std": 2.736581037414501,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-ta-test-00015",
+          "n_prompt_tokens": 49,
+          "text": " B. Coimbatore\n\nExplanation: Cord blood banks are located in various places across India, including Tamil Nadu. Coimbatore is known for its medical facilities and is home to several cord blood banks. Therefore, the correct answer is Coimbatore."
+        },
+        {
+          "id": "milu-ta-test-00102",
+          "n_prompt_tokens": 286,
+          "text": " C. I, II மற்றும் IV\n\nவிடை:\nபவபூதி - மாலதிமாதவம் என்பது"
+        },
+        {
+          "id": "milu-ta-test-00171",
+          "n_prompt_tokens": 210,
+          "text": " A. சுவீடன்\n\nவிடை:\nதற்போது ஐ.நா. சபையின் பொது�"
+        },
+        {
+          "id": "milu-ta-test-00204",
+          "n_prompt_tokens": 158,
+          "text": " A. நியூட்டன்\n\nவிடை: மின்காந்த அலைகள் என்ற கருத்தை �"
+        },
+        {
+          "id": "milu-ta-test-00211",
+          "n_prompt_tokens": 191,
+          "text": " B. 1921\n\nவிடை:\nசௌரி-சௌரா சம்பவத்திற்குப் பிறகு எந்த ஆ"
+        }
+      ]
+    },
+    "en": {
+      "n_items": 200,
+      "fertility": {
+        "tokens_per_word": 1.4170920467643668,
+        "chars_per_token": 4.127817801533814,
+        "n_tokens": 8606,
+        "n_words": 6073
+      },
+      "mcq_wall_s": 181.93659579999803,
+      "mcq_energy_j": 8163.515625,
+      "gen_energy_j_per_token": 2.607360839843743,
+      "ttft_s": {
+        "median": 0.7372379000007641,
+        "std": 0.209438087867913,
+        "n": 15
+      },
+      "prefill_tps": {
+        "median": 91.43387420307246,
+        "std": 17.355852675566364,
+        "n": 15
+      },
+      "decode_tps": {
+        "median": 34.465437238714664,
+        "std": 2.576779224460243,
+        "n": 15
+      },
+      "samples": [
+        {
+          "id": "milu-en-test-00011",
+          "n_prompt_tokens": 67,
+          "text": " B. 57\nReasoning: The pattern of the codes is that each letter is replaced by a number. The first letter of each word is replaced by the corresponding number. The first letter of 'STABLE' is 'S', which is replaced by 55. The second letter is 'T', which is"
+        },
+        {
+          "id": "milu-en-test-00039",
+          "n_prompt_tokens": 73,
+          "text": " D. 9KG\n\nExplanation: The modulus of elasticity (E) is a measure of a material's ability to resist deformation under stress. It is defined as the ratio of stress (σ) to strain (ε) in the following equation: E = σ / ε. The stress (σ) is related to"
+        },
+        {
+          "id": "milu-en-test-00095",
+          "n_prompt_tokens": 65,
+          "text": " B. 4186 Joule\n\nExplanation: 1 kilowatt-hour (kWh) is equal to 3,600,000 joules (J). Therefore, 1.0 kilowatt-hour is equal to 3,600,000 joules. This is equivalent to 3.6"
+        },
+        {
+          "id": "milu-en-test-00115",
+          "n_prompt_tokens": 57,
+          "text": " C. Odissi\n\nExplanation: Odissi is a classical dance form from the state of Odisha, India. It is a traditional dance form that originated in the 16th century and is characterized by its intricate hand gestures, facial expressions, and body movements. Odissi is considered one of the oldest"
+        },
+        {
+          "id": "milu-en-test-00163",
+          "n_prompt_tokens": 59,
+          "text": " B. M\n\nExplanation: The series appears to be a sequence of letters that are the names of the planets in our solar system, in order. The first letter of each word corresponds to the first letter of the next letter in the sequence. Therefore, the first letter of the next word in the sequence would be the"
+        }
+      ]
+    }
+  }
+}
